@@ -1,0 +1,25 @@
+.post {
+    display: block;
+    width: 500px;
+    margin: px auto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.57;
+}
+
+.header-post {
+    display: flex;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.57;
+    cursor: pointer;
+}
+
+.post-body {
+    margin-left: 45px;
+}
+
+.post-body-null {
+    display: none;
+}

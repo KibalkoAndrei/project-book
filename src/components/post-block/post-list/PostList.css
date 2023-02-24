@@ -1,0 +1,43 @@
+.block-post {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.57;
+}
+
+.header-block  {
+    display: flex;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.57;
+    cursor: pointer;
+    text-align: center;
+}
+.post-item-none {
+    display: none;
+}
+
+.button-arrow {
+    margin: 8px 8px 8px 6px;
+    background-image: url('chevron-down.svg');
+    background-color: #171718;
+    border: none;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.button-arrow-active {
+    margin: 8px 8px 8px 6px;
+    background-image: url('chevron-right.svg');
+    background-color: #171718;
+    border: none;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}

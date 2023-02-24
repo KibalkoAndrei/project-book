@@ -1,0 +1,21 @@
+.button-arrow {
+    margin: 8px 8px 8px 6px;
+    background-image: url('chevron-down.svg');
+    background-color: #171718;
+    border: none;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.button-arrow-active {
+    margin: 8px 8px 8px 6px;
+    background-image: url('chevron-right.svg');
+    background-color: #171718;
+    border: none;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}

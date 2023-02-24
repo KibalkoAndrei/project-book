@@ -1,0 +1,21 @@
+.button-header {
+    width: 120px;
+    height: 36px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 0;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-button-header {
+    display: inline;
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+
+.button-header:hover {
+    background-color: #3aa8ff;
+    transition:0.3s;
+}

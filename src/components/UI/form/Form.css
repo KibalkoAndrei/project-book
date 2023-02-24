@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    position: relative;
+    margin-left: 18px;
+    background-color: black;
+    width: 60%;
+    height: 26px;
+    margin-top: 16px;
+    border: 1px solid hsla(0,0%,100%,.3);
+
+}
+
+.lupa {
+    width: 17px;
+    height: 17px;
+    fill: white;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+input {
+    height: 15px;
+    border: none;
+    margin-top: 6px;
+    margin-left: 5px;
+    color: white;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 1.1rem;  
+    outline: none;
+    width: 90%;
+}
+
+select {
+    position: absolute;
+    right: 0;
+    height: 26px;
+    width: 116px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-left: 1px solid hsla(0,0%,100%,.3);
+}
